@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FDE242DE-DD1E-4BC8-B14D-59127A1A7EFC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AppealsMes</RootNamespace>
+    <AssemblyName>AppealsMes</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=5.8.8.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.5.8.8\lib\net45\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.4\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.14.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.14.0\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.2.6\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.2.6\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=1.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.1.4.1\lib\net46\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.28\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.7.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.28\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZstdNet, Version=1.4.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.28\lib\net452\ZstdNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\ClassClient.cs" />
+    <Compile Include="Class\ClassEmployee.cs" />
+    <Compile Include="FormDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDate.Designer.cs">
+      <DependentUpon>FormDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Employee\EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Employee\EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Employee\EmployeeFormAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Employee\EmployeeFormAdd.Designer.cs">
+      <DependentUpon>EmployeeFormAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Employee\EmployeeFormRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Employee\EmployeeFormRed.Designer.cs">
+      <DependentUpon>EmployeeFormRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Client\ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Client\ClientForm.Designer.cs">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Client\ClientFormAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Client\ClientFormAdd.Designer.cs">
+      <DependentUpon>ClientFormAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Client\ClientFormRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Client\ClientFormRed.Designer.cs">
+      <DependentUpon>ClientFormRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\LettersForm\AnswerLetterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\LettersForm\AnswerLetterForm.Designer.cs">
+      <DependentUpon>AnswerLetterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\LettersForm\AnswerLetterFormRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\LettersForm\AnswerLetterFormRed.Designer.cs">
+      <DependentUpon>AnswerLetterFormRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AppealsForm\AppealsFormRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\AppealsForm\AppealsFormRed.Designer.cs">
+      <DependentUpon>AppealsFormRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\ClassAppeals.cs" />
+    <Compile Include="Class\ClassAuthorization.cs" />
+    <Compile Include="Class\ClassConnection.cs" />
+    <Compile Include="Class\ClassGuide.cs" />
+    <Compile Include="Class\ClassLetters.cs" />
+    <Compile Include="Class\ClassProblemAppeals.cs" />
+    <Compile Include="Class\ClassSolvingProbleam.cs" />
+    <Compile Include="Form\FormGuid\DistrictFormAddRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormGuid\DistrictFormAddRed.Designer.cs">
+      <DependentUpon>DistrictFormAddRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AppealsForm\AppealsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\AppealsForm\AppealsForm.designer.cs">
+      <DependentUpon>AppealsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AppealsForm\AppealsFormAddRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\AppealsForm\AppealsFormAddRed.designer.cs">
+      <DependentUpon>AppealsFormAddRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\LettersForm\LettersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\LettersForm\LettersForm.designer.cs">
+      <DependentUpon>LettersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\LettersForm\LettersFormAddRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\LettersForm\LettersFormAddRed.designer.cs">
+      <DependentUpon>LettersFormAddRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ProblemAppealsForm\ProblemAppealsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ProblemAppealsForm\ProblemAppealsForm.designer.cs">
+      <DependentUpon>ProblemAppealsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ProblemAppealsForm\ProblemAppealsFormAddRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ProblemAppealsForm\ProblemAppealsFormAddRed.designer.cs">
+      <DependentUpon>ProblemAppealsFormAddRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SolvingForm\SolvingProblemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SolvingForm\SolvingProblemForm.designer.cs">
+      <DependentUpon>SolvingProblemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SolvingForm\SolvingProblemFormAddRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SolvingForm\SolvingProblemFormAddRed.designer.cs">
+      <DependentUpon>SolvingProblemFormAddRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\WorkAppeals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\WorkAppeals.designer.cs">
+      <DependentUpon>WorkAppeals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Authorization\Authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Authorization\Authorization.designer.cs">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormGuid\GuideForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormGuid\GuideForm.designer.cs">
+      <DependentUpon>GuideForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormGuid\PrioritiesFormAddRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormGuid\PrioritiesFormAddRed.designer.cs">
+      <DependentUpon>PrioritiesFormAddRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormGuid\StatusFormAddRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormGuid\StatusFormAddRed.designer.cs">
+      <DependentUpon>StatusFormAddRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\MainMenu\Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\MainMenu\Main_Menu.designer.cs">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\UserMenu\User_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\UserMenu\User_Menu.designer.cs">
+      <DependentUpon>User_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormGuid\PostFormAddRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormGuid\PostFormAddRed.Designer.cs">
+      <DependentUpon>PostFormAddRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormGuid\MethodTreatmentFormAddRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormGuid\MethodTreatmentFormAddRed.Designer.cs">
+      <DependentUpon>MethodTreatmentFormAddRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ProblemAppealsForm\ProblemAppealsFormRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ProblemAppealsForm\ProblemAppealsFormRed.Designer.cs">
+      <DependentUpon>ProblemAppealsFormRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\LettersForm\LettersFormRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\LettersForm\LettersFormRed.Designer.cs">
+      <DependentUpon>LettersFormRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controls\UserControlButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControlTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UserControlTextBox.designer.cs">
+      <DependentUpon>UserControlTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UserControlToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form\FormGuid\TypeAppealFormAddRed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormGuid\TypeAppealFormAddRed.Designer.cs">
+      <DependentUpon>TypeAppealFormAddRed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SelectAdresForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SelectAdresForm.Designer.cs">
+      <DependentUpon>SelectAdresForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SolvingForm\SolvingProblemRedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SolvingForm\SolvingProblemRedForm.Designer.cs">
+      <DependentUpon>SolvingProblemRedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportsForm.Designer.cs">
+      <DependentUpon>ReportsForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormDate.resx">
+      <DependentUpon>FormDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Client\ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Client\ClientFormAdd.resx">
+      <DependentUpon>ClientFormAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Client\ClientFormRed.resx">
+      <DependentUpon>ClientFormRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Employee\EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Employee\EmployeeFormAdd.resx">
+      <DependentUpon>EmployeeFormAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Employee\EmployeeFormRed.resx">
+      <DependentUpon>EmployeeFormRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\LettersForm\AnswerLetterForm.resx">
+      <DependentUpon>AnswerLetterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\LettersForm\AnswerLetterFormRed.resx">
+      <DependentUpon>AnswerLetterFormRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AppealsForm\AppealsFormRed.resx">
+      <DependentUpon>AppealsFormRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AppealsForm\AppealsForm.resx">
+      <DependentUpon>AppealsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AppealsForm\AppealsFormAddRed.resx">
+      <DependentUpon>AppealsFormAddRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\LettersForm\LettersForm.resx">
+      <DependentUpon>LettersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\LettersForm\LettersFormAddRed.resx">
+      <DependentUpon>LettersFormAddRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\LettersForm\LettersFormRed.resx">
+      <DependentUpon>LettersFormRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ProblemAppealsForm\ProblemAppealsForm.resx">
+      <DependentUpon>ProblemAppealsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ProblemAppealsForm\ProblemAppealsFormRed.resx">
+      <DependentUpon>ProblemAppealsFormRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ProblemAppealsForm\ProblemAppealsFormAddRed.resx">
+      <DependentUpon>ProblemAppealsFormAddRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SolvingForm\SolvingProblemForm.resx">
+      <DependentUpon>SolvingProblemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SolvingForm\SolvingProblemFormAddRed.resx">
+      <DependentUpon>SolvingProblemFormAddRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\WorkAppeals.resx">
+      <DependentUpon>WorkAppeals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Authorization\Authorization.resx">
+      <DependentUpon>Authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormGuid\DistrictFormAddRed.resx">
+      <DependentUpon>DistrictFormAddRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormGuid\GuideForm.resx">
+      <DependentUpon>GuideForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormGuid\MethodTreatmentFormAddRed.resx">
+      <DependentUpon>MethodTreatmentFormAddRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormGuid\PostFormAddRed.resx">
+      <DependentUpon>PostFormAddRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormGuid\PrioritiesFormAddRed.resx">
+      <DependentUpon>PrioritiesFormAddRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormGuid\StatusFormAddRed.resx">
+      <DependentUpon>StatusFormAddRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormGuid\TypeAppealFormAddRed.resx">
+      <DependentUpon>TypeAppealFormAddRed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\MainMenu\Main_Menu.resx">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\UserMenu\User_Menu.resx">
+      <DependentUpon>User_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Controls\UserControlTextBox.resx">
+      <DependentUpon>UserControlTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SelectAdresForm.resx">
+      <DependentUpon>SelectAdresForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SolvingForm\SolvingProblemRedForm.resx">
+      <DependentUpon>SolvingProblemRedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsForm.resx">
+      <DependentUpon>ReportsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\hidden.png" />
+    <None Include="Resources\view1.png" />
+    <None Include="Resources\logotip2.png" />
+    <None Include="Resources\logoms1.png" />
+    <None Include="Resources\hidden1.png" />
+    <Content Include="Resources\logoms.png" />
+    <Content Include="Resources\logotip.png" />
+    <None Include="Resources\logotip1.png" />
+    <Content Include="Resources\view.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

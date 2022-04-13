@@ -1,0 +1,202 @@
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\AppealsMes.exe.config
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\AppealsMes.exe
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\AppealsMes.pdb
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.Properties.Resources.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\WindowsFormsApp2.UserControlTextBox.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.GenerateResource.cache
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.CoreCompileInputs.cache
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.exe
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.pdb
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.Main_Menu.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\Google.Protobuf.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\MySql.Data.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\System.Buffers.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\System.Memory.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\ZstdNet.dll
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\Google.Protobuf.pdb
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\Google.Protobuf.xml
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\MySql.Data.xml
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\System.Buffers.xml
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\System.Memory.xml
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.CopyComplete
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.AssemblyReference.cache
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.AppealsForm.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.AppealsFormAddRed.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.LettersForm.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.LettersFormAddRed.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.ProblemAppealsForm.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.ProblemAppealsFormAddRed.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.SolvingProblemForm.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.SolvingProblemFormAddRed.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.WorkAppeals.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.Authorization.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.DistrictFormAddRed.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.GuideForm.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.MethodTreatmentFormAddRed.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.PostFormAddRed.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.PrioritiesFormAddRed.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.StatusFormAddRed.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.TypeAppealFormAddRed.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.User_Menu.resources
+C:\Users\79533\source\repos\AppealsMes\AppealsMes\obj\Debug\AppealsMes.SelectAdresForm.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\AppealsMes.exe.config
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\AppealsMes.exe
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\AppealsMes.pdb
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\BouncyCastle.Crypto.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\FontAwesome.Sharp.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Google.Protobuf.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Hash.xxHash.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\MySql.Data.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Buffers.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Memory.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Numerics.Vectors.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Ubiety.Dns.Core.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\ZstdNet.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Google.Protobuf.pdb
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Google.Protobuf.xml
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.xml
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Hash.xxHash.xml
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\MySql.Data.xml
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Buffers.xml
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Memory.xml
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Numerics.Vectors.xml
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csprojAssemblyReference.cache
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.AppealsForm.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.AppealsFormAddRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.LettersForm.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.LettersFormAddRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.ProblemAppealsForm.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.ProblemAppealsFormAddRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.SolvingProblemForm.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.SolvingProblemFormAddRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.WorkAppeals.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.Authorization.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.DistrictFormAddRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.GuideForm.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.MethodTreatmentFormAddRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.PostFormAddRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.PrioritiesFormAddRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.StatusFormAddRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.TypeAppealFormAddRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.Main_Menu.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.User_Menu.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.Properties.Resources.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\WindowsFormsApp2.UserControlTextBox.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.SelectAdresForm.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.GenerateResource.cache
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.CoreCompileInputs.cache
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.CopyComplete
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.exe
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.pdb
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\AppealsMes.exe.config
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\AppealsMes.exe
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\AppealsMes.pdb
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\BouncyCastle.Crypto.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\FontAwesome.Sharp.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Google.Protobuf.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.Streams.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Hash.xxHash.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\MySql.Data.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Buffers.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Memory.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Numerics.Vectors.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Ubiety.Dns.Core.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\ZstdNet.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Google.Protobuf.pdb
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Google.Protobuf.xml
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.xml
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Compression.LZ4.Streams.xml
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\K4os.Hash.xxHash.xml
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\MySql.Data.xml
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Buffers.xml
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Memory.xml
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Numerics.Vectors.xml
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.AssemblyReference.cache
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.AppealsForm.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.AppealsFormAddRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.LettersForm.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.LettersFormAddRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.ProblemAppealsForm.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.ProblemAppealsFormAddRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.SolvingProblemForm.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.SolvingProblemFormAddRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.WorkAppeals.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.Authorization.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.DistrictFormAddRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.GuideForm.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.MethodTreatmentFormAddRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.PostFormAddRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.PrioritiesFormAddRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.StatusFormAddRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.TypeAppealFormAddRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.Main_Menu.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\Appeals_Mes.User_Menu.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.Properties.Resources.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\WindowsFormsApp2.UserControlTextBox.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.SelectAdresForm.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.GenerateResource.cache
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.CoreCompileInputs.cache
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.CopyComplete
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.exe
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.pdb
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.AppealsFormRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.ProblemAppealsFormAdd.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.SolvingProblemRedForm.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.LettersFormRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.AnswerLetterForm.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.AnswerLetterFormRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.ClientForm.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.ClientFormAdd.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.ClientFormRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.EmployeeForm.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.EmployeeFormAdd.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.EmployeeFormRed.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.ResolveComReference.cache
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\EPPlus.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.ComponentModel.Annotations.dll
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\EPPlus.xml
+F:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.ReportsForm.resources
+F:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.FormDate.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\EPPlus.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\EPPlus.xml
+D:\Дипломный проект\AppealsMes\AppealsMes\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.csproj.ResolveComReference.cache
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.FormDate.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.ClientForm.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.ClientFormAdd.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.ClientFormRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.EmployeeForm.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.EmployeeFormAdd.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.EmployeeFormRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.AnswerLetterForm.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.AnswerLetterFormRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.AppealsFormRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.LettersFormRed.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.ProblemAppealsFormAdd.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.SolvingProblemRedForm.resources
+D:\Дипломный проект\AppealsMes\AppealsMes\obj\Debug\AppealsMes.ReportsForm.resources
